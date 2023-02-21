@@ -42,6 +42,14 @@ function App(){
                 name2="Entrance Prep"
                 name3="Finance Books"
             />
+            <Cards name="Self-Help Books"
+              name2="Medical Books"
+              name3="Technical Books"
+            />
+            <Cards name="Holy Books" 
+              name2="Startup"
+              name3="Nepali Samjhana"
+            />
         </div>
     );
 
