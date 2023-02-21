@@ -13,28 +13,16 @@ function App(){
             {/* <Container fluid> */}
             <Row >
               <Col lg={3} md={3} sm={12} xs={12} className="col">
-                {" "}
-                <div
-                  className="glassdoor"
-                  // style={{
-                  //   width: "100%",
-                  //   height: "inherit",
-                  //   backgroundColor: "white",
-                  //   textAlign: "center",
-                  //   padding: "2%"
-                  // }}
-                >
-                  
+              
                   {props.name}
-                </div>
               </Col>
               <Col lg={3} md={3} sm={12} xs={12} className="col">
-                {" "}
-                <div>{props.name2}</div>
+              
+                {props.name2}
               </Col>
               <Col lg={3} md={3} sm={12} xs={12} className="col">
-                {" "}
-                <div>{props.name3}</div>
+            
+                {props.name3}
               </Col>
               {/* <Col xxl={3} lg={3} md={3} sm={12} className="col">
               {" "}

@@ -18,12 +18,15 @@
 }
 
 .col {
-    /* background-color: greenyellow; */
+    background-color: #E3CAA5;
     height: 200px;
-    /* border: 2px solid; */
+    text-align: center;
     margin: 4%;
     text-align: center;
-    /* padding: 5%; */
+    border-top-right-radius: 6%;
+    border-bottom-left-radius: 6%;
+    line-height: 1;
+    padding: 7%;
   }
   .booksCategory {
     padding: 7%;

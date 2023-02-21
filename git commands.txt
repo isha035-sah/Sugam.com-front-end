@@ -1,0 +1,12 @@
+echo "# Sugam.com-front-end" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/isha035-sah/Sugam.com-front-end.git
+git push -u origin main
+
+
+git remote add origin https://github.com/isha035-sah/Sugam.com-front-end.git
+git branch -M main
+git push -u origin main
