@@ -1,0 +1,30 @@
+
+/* .heading{
+  color: aqua;
+} */
+.nav{
+    background-color: #AD8B73;
+}
+.container{
+    /* margin: 8px 22rem !important; */
+    padding: 1% 17% 1% !important;
+
+}
+.navitems{
+    color: #FFFBE9 !important;
+}
+@media screen and(max-width:1028px){
+   
+}
+
+.col {
+    /* background-color: greenyellow; */
+    height: 200px;
+    /* border: 2px solid; */
+    margin: 4%;
+    text-align: center;
+    /* padding: 5%; */
+  }
+  .booksCategory {
+    padding: 7%;
+  }
