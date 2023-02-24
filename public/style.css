@@ -3,32 +3,45 @@
   color: aqua;
 } */
 .nav{
-    background-color: #AD8B73;
+    background-color: #439A97;
 }
-.container{
+.containerNav{
     /* margin: 8px 22rem !important; */
-    padding: 1% 17% 1% !important;
+     padding: 1% 19% 1% !important; 
 
-}
+} 
 .navitems{
-    color: #FFFBE9 !important;
+    color: white !important;
 }
 @media screen and(max-width:1028px){
    
 }
 
 .col {
-    background-color: #E3CAA5;
-    height: 150px;
-    text-align: center;
-    margin: 4%;
-    text-align: center;
+    background-color: #97DECE;
+    border: 1px solid;
+    height: 215px;
+    padding: 3px 4px 3px;
     border-top-right-radius: 6%;
-    border-bottom-left-radius: 6%;
+    border-top-left-radius: 6%;
     line-height: 1;
-    padding: 7%;
-    color: #FFFBE9;
+ 
   }
-  .booksCategory {
-    padding: 3%;
+  
+  .bookheadDiv{
+    margin-top:30px ;
+    height: 50px;
+    /* background-color: black; */
+  }
+
+  .h3Style{
+    display: inline-block;
+    float: left;
+  }
+  .viewAllStyle{
+    float: right;
+  }
+
+  .images{
+    width: 100%;
   }

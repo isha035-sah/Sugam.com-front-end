@@ -19,7 +19,7 @@ function NBar() {
   
   return (
     <Navbar className='nav'  expand="lg">
-      <Container fluid className='container'>
+      <Container fluid className='containerNav'>
         <Navbar.Brand href="#" className='navitems'>
           Sugam.com
         </Navbar.Brand>
