@@ -20,7 +20,7 @@
 .col {
     /* background-color: #97DECE; */
     /* border: 1px solid; */
-    height: 235px;
+    height: 265px;
     padding: 3px 4px 3px;
     border-top-right-radius: 6%;
     border-top-left-radius: 6%;
@@ -61,3 +61,11 @@
     display:inline ; 
     padding: 2px;
   }
+
+/* stying mdb icons */
+
+
+/* styling footer */
+.footer{
+  background-color: #62B6B7;
+}

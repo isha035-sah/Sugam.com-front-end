@@ -11,6 +11,8 @@ import book1 from "./images/book1.png"
 
 import {BsStars} from "react-icons/bs"
 
+import Footer from "./Footer"
+
 function App(){
 
   // function Bookshead(props){
@@ -181,6 +183,8 @@ function App(){
               name2="Startup"
               name3="Nepali Samjhana"
             /> */}
+
+            <Footer/>
         </div>
     );
 
