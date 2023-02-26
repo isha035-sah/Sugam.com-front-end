@@ -9,74 +9,145 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import books from "./images/books.png"
 import book1 from "./images/book1.png"
 
+import {BsStars} from "react-icons/bs"
+
 function App(){
 
-  function Bookshead(props){
-    return(
+  // function Bookshead(props){
+  //   return(
       
-      <Container>
-      <div className="bookheadDiv">
-      <h3 className="h3Style">{props.title}</h3>
-        <Button variant="warning" className="viewAllStyle">View All</Button>{' '}
-       </div>
-       </Container>
+  //     <Container>
+  //     <div className="bookheadDiv">
+  //     <h3 className="h3Style">{props.title}</h3>
+  //       <Button variant="warning" className="viewAllStyle">View All</Button>{' '}
+  //      </div>
+  //      </Container>
       
-    );
-  }
+  //   );
+  // }
    
     function Cards(props) {
         return (
-          
-            <Container row>
-            <Row>
-              <Col lg={2} md={4}  xs={6} className="col">
-                 <div>
-                    <img src={props.img2} className="images"/>
-                 </div>
-                 <div>
-                 {props.name3} 
-                  
-                 </div>
-              </Col>
 
-              <Col lg={2} md={4}  xs={6} className="col">
-                  {/* {props.name2} */}
+          <><Container>
+            <div className="bookheadDiv">
+              <h3 className="h3Style">{props.title}</h3>
+              <Button variant="warning" className="viewAllStyle">View All</Button>{' '}
+            </div>
+          </Container><Container row>
+              <Row>
+                <Col lg={2} md={4} xs={6} className="col">
                   <div>
-                  <img src={props.img2} className="images"/>
-                </div> 
-                
-              </Col>
-              <Col lg={2} md={4}  xs={6} className="col">
+                    <img src={props.img2} className="images" alt="book"/>
+                  </div>
+                  <div className="titleDiv">
+                    {props.name3}
+                    <Container className="titleDiv starsContainer">4.3<BsStars />
+                      &nbsp; {"(150)"}
+                    </Container>
 
-              <div>
-                  <img src={props.img2} className="images"/>
-                </div> 
+                  </div>
+                  <div className="titleDiv">
+                    <div className="price" style={{ fontWeight: "bold" }}>₹500</div>
+                    <div className="price" style={{ textDecoration: "line-through" }}>₹315.00</div>
+                    <div className="price" style={{ color: "green", fontWeight: "bold" }}>60% off</div>
+                  </div>
+                </Col>
 
-                {/* {props.name3} */}
-              </Col>
-              <Col lg={2} md={4}  xs={6} className="col">
-              
-              <div>
-                  <img src={props.img2} className="images"/>
-                </div> 
-              {/* {props.name} */}
-          </Col>
-          <Col lg={2} md={4} sm={6} xs={6} className="col">
-          
-               <div>
-                  <img src={props.img2} className="images"/>
-                </div> 
-            {/* {props.name2} */}
-          </Col>
-          <Col lg={2} md={4} sm={6} xs={6} className="col">
-              <div>
-                  <img src={props.img2} className="images"/>
-                </div> 
-            {/* {props.name3} */}
-          </Col>
-        
-            </Row>
-            </Container>
+                <Col lg={2} md={4} xs={6} className="col">
+                  <div>
+                    <img src={props.img2} className="images" alt="book"/>
+                  </div>
+                  <div className="titleDiv">
+                    {props.name3}
+                    <Container className="titleDiv starsContainer">4.3<BsStars />
+                      &nbsp; {"(150)"}
+                    </Container>
+
+                  </div>
+                  <div className="titleDiv">
+                    <div className="price" style={{ fontWeight: "bold" }}>₹500</div>
+                    <div className="price" style={{ textDecoration: "line-through" }}>₹315.00</div>
+                    <div className="price" style={{ color: "green", fontWeight: "bold" }}>60% off</div>
+                  </div>
+                </Col>
+
+
+                <Col lg={2} md={4} xs={6} className="col">
+                  <div>
+                    <img src={props.img2} className="images" alt="book"/>
+                  </div>
+                  <div className="titleDiv">
+                    {props.name3}
+                    <Container className="titleDiv starsContainer">4.3<BsStars />
+                      &nbsp; {"(150)"}
+                    </Container>
+
+                  </div>
+                  <div className="titleDiv">
+                    <div className="price" style={{ fontWeight: "bold" }}>₹500</div>
+                    <div className="price" style={{ textDecoration: "line-through" }}>₹315.00</div>
+                    <div className="price" style={{ color: "green", fontWeight: "bold" }}>60% off</div>
+                  </div>
+                </Col>
+
+
+                <Col lg={2} md={4} xs={6} className="col">
+                  <div>
+                    <img src={props.img2} className="images" alt="book"/>
+                  </div>
+                  <div className="titleDiv">
+                    {props.name3}
+                    <Container className="titleDiv starsContainer">4.3<BsStars />
+                      &nbsp; {"(150)"}
+                    </Container>
+
+                  </div>
+                  <div className="titleDiv">
+                    <div className="price" style={{ fontWeight: "bold" }}>₹500</div>
+                    <div className="price" style={{ textDecoration: "line-through" }}>₹315.00</div>
+                    <div className="price" style={{ color: "green", fontWeight: "bold" }}>60% off</div>
+                  </div>
+                </Col>
+
+                <Col lg={2} md={4} xs={6} className="col">
+                  <div>
+                    <img src={props.img2} className="images" alt="book"/>
+                  </div>
+                  <div className="titleDiv">
+                    {props.name3}
+                    <Container className="titleDiv starsContainer">4.3<BsStars />
+                      &nbsp; {"(150)"}
+                    </Container>
+
+                  </div>
+                  <div className="titleDiv">
+                    <div className="price" style={{ fontWeight: "bold" }}>₹500</div>
+                    <div className="price" style={{ textDecoration: "line-through" }}>₹315.00</div>
+                    <div className="price" style={{ color: "green", fontWeight: "bold" }}>60% off</div>
+                  </div>
+                </Col>
+
+                <Col lg={2} md={4} xs={6} className="col">
+                  <div>
+                    <img src={props.img2} className="images" alt="book"/>
+                  </div>
+                  <div className="titleDiv">
+                    {props.name3}
+                    <Container className="titleDiv starsContainer">4.3<BsStars />
+                      &nbsp; {"(150)"}
+                    </Container>
+
+                  </div>
+                  <div className="titleDiv">
+                    <div className="price" style={{ fontWeight: "bold" }}>₹500</div>
+                    <div className="price" style={{ textDecoration: "line-through" }}>₹315.00</div>
+                    <div className="price" style={{ color: "green", fontWeight: "bold" }}>60% off</div>
+                  </div>
+                </Col>
+
+              </Row>
+            </Container></>
            
         );
       }
@@ -88,21 +159,25 @@ function App(){
     return (
         <div>
             <NBar/>
-            <Bookshead
+            {/* <Bookshead
               title="Exam prep"
               
-            />
+            /> */}
             <Cards 
+                  title="Exam prep"
                   img={books}
                   img2={book1}
                 
                 name3="Lorem Ipsum is simply dummy text"
             />
-            {/* <Cards name="Self-Help Books"
-              name2="Medical Books"
-              name3="Technical Books"
+           <Cards 
+                  title="Exam prep"
+                  img={books}
+                  img2={book1}
+                
+                name3="Lorem Ipsum is simply dummy text"
             />
-            <Cards name="Holy Books" 
+            {/* <Cards name="Holy Books" 
               name2="Startup"
               name3="Nepali Samjhana"
             /> */}

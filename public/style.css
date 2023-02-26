@@ -18,9 +18,9 @@
 }
 
 .col {
-    background-color: #97DECE;
-    border: 1px solid;
-    height: 215px;
+    /* background-color: #97DECE; */
+    /* border: 1px solid; */
+    height: 235px;
     padding: 3px 4px 3px;
     border-top-right-radius: 6%;
     border-top-left-radius: 6%;
@@ -44,4 +44,20 @@
 
   .images{
     width: 100%;
+  }
+  .titleDiv{
+    margin-top: 18px;
+  }
+
+ .starsContainer{
+    background-color:green ;
+     /* margin-top:8px; */
+      height:30px ;
+       width:110px !important;
+       padding:5%;
+        color:white;
+  }
+  .price{
+    display:inline ; 
+    padding: 2px;
   }
