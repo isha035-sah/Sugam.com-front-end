@@ -118,7 +118,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
       <div className='text-center p-4 navitems' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }} >
         © 2023 Copyright:
-        <a className='text-reset fw-bold navitems' href='https://mdbootstrap.com/'>
+        <a className='text-reset fw-bold navitems'>
           Sugam.com
         </a>
       </div>

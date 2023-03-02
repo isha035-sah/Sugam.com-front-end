@@ -7,6 +7,7 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 
 
@@ -15,10 +16,14 @@ function NBar() {
   const textStyle = {
     color: "#FFFBE9"
   };
+  const navTitle=(
+    // <MDBIcon  icon='gem' className='me-3 navitems' />
+    <MDBIcon fas icon="user-check" className='navitems'/>
+  )
 
   
   return (
-    <Navbar className='nav'  expand="lg">
+    <Navbar className='nav'  expand="lg" sticky="top">
       <Container fluid className='containerNav'>
         <Navbar.Brand href="#" className='navitems'>
           Sugam.com
@@ -60,8 +65,9 @@ function NBar() {
             </Button>
           </Form>
           <NavDropdown
-            title="Profile"
-            id="navbarScrollingDropdown"
+            title={navTitle}
+            // icon="<MDBIcon className='navitems' fab icon='facebook-f'/>"
+            // id="navbarScrollingDropdown"
             // style={textStyle}
             className="navitems"
           >
