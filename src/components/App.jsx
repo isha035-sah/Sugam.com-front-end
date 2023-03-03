@@ -8,6 +8,7 @@ import Home from "./Home"
 import Footer from "./Footer"
 
 import Inventory from "./Inventory";
+import Customerservice from "./Customerservice"
 
 
 function App(){
@@ -37,9 +38,11 @@ function App(){
 
           <Routes>
              <Route path="inventory-service" element={ <Inventory />} />
+             <Route path="/customer-service" element={ <Customerservice />} />
               <Route path="/" element={<Home/>} />   
           </Routes>  
-            <Footer/>
+
+          <Footer/>
         </Router>
         </>
 
